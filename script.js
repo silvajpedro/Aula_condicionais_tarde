@@ -63,13 +63,15 @@ if(politicasDePrivacidade == "check"){
 }
 
 let saldo = 100
-
+// caso o saldo for maior ou igual a 100 será mostrado no console vou comer uma pizza
 if(saldo >= 100){
     console.log("vou comer uma pizza")
 }
 
 let moedasVnw = 1000
-
+// se a quantidade de moedasVnw for menor ou igual a 2000
+// ele irá executar a ação console.log("me mande mais moedas Vnw")
+// como 1000 e menor que dois mil a ação será executada
 if(moedasVnw <= 2000){
     console.log("me mande mais moedas Vnw")
 }
